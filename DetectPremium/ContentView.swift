@@ -19,9 +19,7 @@ struct ContentView: View {
             Text("\(vm.isPremium ? "Premium" : "")")
                 .font(Font.system(size: 46, weight: .bold))
                 .foregroundLinearGradient(
-                        colors: [.red, .blue, .green, .yellow],
-                        startPoint: .leading,
-                        endPoint: .trailing
+                        colors: [.red, .blue, .green, .yellow]
                     )
                 .frame(height: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/)
             

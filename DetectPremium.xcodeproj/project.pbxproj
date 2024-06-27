@@ -13,7 +13,7 @@
 		FD963DB32C2E09B1006BDE96 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD963DB22C2E09B1006BDE96 /* Preview Assets.xcassets */; };
 		FD963DBC2C2E0A13006BDE96 /* CounterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD963DBB2C2E0A13006BDE96 /* CounterViewModel.swift */; };
 		FD963DBE2C2E0A1B006BDE96 /* Counter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD963DBD2C2E0A1B006BDE96 /* Counter.swift */; };
-		FD963DC02C2E1169006BDE96 /* ForegroundLinearGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD963DBF2C2E1169006BDE96 /* ForegroundLinearGradient.swift */; };
+		FD963DC02C2E1169006BDE96 /* Text+ForegroundLinearGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD963DBF2C2E1169006BDE96 /* Text+ForegroundLinearGradient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,7 +24,7 @@
 		FD963DB22C2E09B1006BDE96 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FD963DBB2C2E0A13006BDE96 /* CounterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterViewModel.swift; sourceTree = "<group>"; };
 		FD963DBD2C2E0A1B006BDE96 /* Counter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Counter.swift; sourceTree = "<group>"; };
-		FD963DBF2C2E1169006BDE96 /* ForegroundLinearGradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForegroundLinearGradient.swift; sourceTree = "<group>"; };
+		FD963DBF2C2E1169006BDE96 /* Text+ForegroundLinearGradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Text+ForegroundLinearGradient.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,7 +63,7 @@
 				FD963DAD2C2E09B0006BDE96 /* ContentView.swift */,
 				FD963DAF2C2E09B1006BDE96 /* Assets.xcassets */,
 				FD963DB12C2E09B1006BDE96 /* Preview Content */,
-				FD963DBF2C2E1169006BDE96 /* ForegroundLinearGradient.swift */,
+				FD963DBF2C2E1169006BDE96 /* Text+ForegroundLinearGradient.swift */,
 			);
 			path = DetectPremium;
 			sourceTree = "<group>";
@@ -162,7 +162,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD963DC02C2E1169006BDE96 /* ForegroundLinearGradient.swift in Sources */,
+				FD963DC02C2E1169006BDE96 /* Text+ForegroundLinearGradient.swift in Sources */,
 				FD963DBE2C2E0A1B006BDE96 /* Counter.swift in Sources */,
 				FD963DAE2C2E09B0006BDE96 /* ContentView.swift in Sources */,
 				FD963DAC2C2E09B0006BDE96 /* DetectPremiumApp.swift in Sources */,
