@@ -5,6 +5,7 @@
 //  Created by Rasika Punde on 6/27/24.
 //
 
+import LinearGradientBgDemoPackage
 import SwiftUI
 
 struct ContentView: View {
@@ -38,6 +39,7 @@ struct ContentView: View {
             })
             .padding(.top, 20)
         }
+        .linearGradientBackground()
         
     }
 }

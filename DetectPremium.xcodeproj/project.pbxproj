@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FD8443CE2C4A142700527BC5 /* LinearGradientBgDemoPackage in Frameworks */ = {isa = PBXBuildFile; productRef = FD8443CD2C4A142700527BC5 /* LinearGradientBgDemoPackage */; };
 		FD963DAC2C2E09B0006BDE96 /* DetectPremiumApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD963DAB2C2E09B0006BDE96 /* DetectPremiumApp.swift */; };
 		FD963DAE2C2E09B0006BDE96 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD963DAD2C2E09B0006BDE96 /* ContentView.swift */; };
 		FD963DB02C2E09B1006BDE96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD963DAF2C2E09B1006BDE96 /* Assets.xcassets */; };
@@ -32,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD8443CE2C4A142700527BC5 /* LinearGradientBgDemoPackage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -108,6 +110,9 @@
 			dependencies = (
 			);
 			name = DetectPremium;
+			packageProductDependencies = (
+				FD8443CD2C4A142700527BC5 /* LinearGradientBgDemoPackage */,
+			);
 			productName = DetectPremium;
 			productReference = FD963DA82C2E09B0006BDE96 /* DetectPremium.app */;
 			productType = "com.apple.product-type.application";
@@ -136,6 +141,9 @@
 				Base,
 			);
 			mainGroup = FD963D9F2C2E09B0006BDE96;
+			packageReferences = (
+				FD8443CC2C4A142700527BC5 /* XCRemoteSwiftPackageReference "LinearGradientBgDemoPackage" */,
+			);
 			productRefGroup = FD963DA92C2E09B0006BDE96 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -372,6 +380,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FD8443CC2C4A142700527BC5 /* XCRemoteSwiftPackageReference "LinearGradientBgDemoPackage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/rasika-punde/LinearGradientBgDemoPackage.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FD8443CD2C4A142700527BC5 /* LinearGradientBgDemoPackage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FD8443CC2C4A142700527BC5 /* XCRemoteSwiftPackageReference "LinearGradientBgDemoPackage" */;
+			productName = LinearGradientBgDemoPackage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = FD963DA02C2E09B0006BDE96 /* Project object */;
 }

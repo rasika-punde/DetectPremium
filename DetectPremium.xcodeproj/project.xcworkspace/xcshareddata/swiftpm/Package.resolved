@@ -1,0 +1,15 @@
+{
+  "originHash" : "df9b07694ee0c25901c638657867ca5f5be54eebbb3ad7d4baf4ea515160e180",
+  "pins" : [
+    {
+      "identity" : "lineargradientbgdemopackage",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/rasika-punde/LinearGradientBgDemoPackage.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "a874a378ef5607c8a58eb641bf94f5a11ae9d96d"
+      }
+    }
+  ],
+  "version" : 3
+}
