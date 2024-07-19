@@ -2,7 +2,7 @@
 //  ForegroundLinearGradient.swift
 //  DetectPremium
 //
-//  Created by Pratik Mistry on 6/27/24.
+//  Created by Rasika Punde on 6/27/24.
 //
 
 import Foundation
